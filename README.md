@@ -33,3 +33,8 @@ Connect to Postgres: (enter password from `./init.sql` when prompted)
 ```
 psql -h 127.0.0.1 -p 5434 -U blogpg
 ```
+
+## Files for Postgres in Docker
+
+* [docker-compose.yml](./docker-compose.yml)
+* [database.yml](./config/database.yml)
